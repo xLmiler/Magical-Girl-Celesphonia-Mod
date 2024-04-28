@@ -1,0 +1,541 @@
+{
+	"乳首弄り": {
+		"DifID": "finger_0001",
+		"Dif2ID": "なし",
+		"DifSE": "Knead01",
+		"CUTINBASENUM": "breast",
+		"CUTINFILENUM": 1
+	},
+	"胸揉み前": {
+		"DifID": "knead_0001",
+		"Dif2ID": "なし",
+		"DifSE": "Knead01",
+		"CUTINBASENUM": "breast",
+		"CUTINFILENUM": 1
+	},
+	"胸揉み後ろ": {
+		"DifID": "knead_0002",
+		"Dif2ID": "なし",
+		"DifSE": "Knead01",
+		"CUTINBASENUM": "breast",
+		"CUTINFILENUM": 1
+	},
+	"花弁触手_胸": {
+		"DifID": "tentacle_0001",
+		"Dif2ID": "なし",
+		"DifSE": "Tentacle01",
+		"CUTINBASENUM": "breast",
+		"CUTINFILENUM": 1
+	},
+	"繊毛触手_胸": {
+		"DifID": "tentacle_0002",
+		"Dif2ID": "なし",
+		"DifSE": "Tentacle01",
+		"CUTINBASENUM": "breast",
+		"CUTINFILENUM": 1
+	},
+	"怪魔舌_胸": {
+		"DifID": "tongue_0001",
+		"Dif2ID": "なし",
+		"DifSE": "Tentacle01",
+		"CUTINBASENUM": "breast",
+		"CUTINFILENUM": 1
+	},
+	"舔胸": {
+		"DifID": "tongue_0002",
+		"Dif2ID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "breast",
+		"CUTINFILENUM": 1
+	},
+	"スライム_胸": {
+		"DifID": "slime_0001",
+		"Dif2ID": "なし",
+		"DifSE": "Slime01",
+		"CUTINBASENUM": "breast",
+		"CUTINFILENUM": 1
+	},
+	"噴乳": {
+		"DifID": "milk",
+		"Dif2ID": "なし",
+		"DifSE": "Splash01",
+		"CUTINBASENUM": "breast",
+		"CUTINFILENUM": 1
+	},
+	"胸撮影": {
+		"DifID": "なし",
+		"Dif2ID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "breast",
+		"CUTINFILENUM": 1
+	},
+	"胸注射动_1": {
+		"DifID": "needle_0001",
+		"Dif2ID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "breast",
+		"CUTINFILENUM": 1
+	},
+	"胸注射动_2": {
+		"DifID": "needle_0002",
+		"Dif2ID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "breast",
+		"CUTINFILENUM": 1
+	},
+	"胸注射动_3": {
+		"DifID": "needle_0003",
+		"Dif2ID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "breast",
+		"CUTINFILENUM": 1
+	},
+	"胸注射动_4": {
+		"DifID": "needle_0004",
+		"Dif2ID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "breast",
+		"CUTINFILENUM": 1
+	},
+	"胸注射动_5": {
+		"DifID": "needle_0005",
+		"Dif2ID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "breast",
+		"CUTINFILENUM": 1
+	},
+	"胸刺环_1": {
+		"DifID": "なし",
+		"Dif2ID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "acme",
+		"CUTINFILENUM": 1
+	},
+	"胸刺环_2": {
+		"DifID": "なし",
+		"Dif2ID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "acme",
+		"CUTINFILENUM": 1
+	},
+	"鼻刺环_1": {
+		"DifID": "なし",
+		"Dif2ID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "kiss",
+		"CUTINFILENUM": 1
+	},
+	"鼻刺环_2": {
+		"DifID": "なし",
+		"Dif2ID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "kiss",
+		"CUTINFILENUM": 1
+	},
+	"乳交_1": {
+		"DifID": "sex01",
+		"Dif2ID": "なし",
+		"DifSE": "Knead01",
+		"CUTINBASENUM": "breast",
+		"CUTINFILENUM": 1
+	},
+	"乳交_2": {
+		"DifID": "sex02",
+		"Dif2ID": "なし",
+		"DifSE": "Knead01",
+		"CUTINBASENUM": "breast",
+		"CUTINFILENUM": 1
+	},
+	"乳交_射精": {
+		"DifID": "なし",
+		"Dif2ID": "なし",
+		"DifSE": "Knead01",
+		"DifSemen": "Semen_0001",
+		"CUTINBASENUM": "breast",
+		"CUTINFILENUM": 1
+	},
+	"膣触り": {
+		"Dif2ID": "なし",
+		"DifID": "0001",
+		"DifSE": "TouchWet01",
+		"CUTINBASENUM": "vagina",
+		"CUTINFILENUM": 1
+	},
+	"手マン": {
+		"Dif2ID": "なし",
+		"DifID": "0002",
+		"DifSE": "TouchWet01",
+		"CUTINBASENUM": "vagina",
+		"CUTINFILENUM": 1
+	},
+	"手マン潮吹き": {
+		"Dif2ID": "なし",
+		"DifID": "0003",
+		"DifSE": "Spouts01",
+		"CUTINBASENUM": "vagina",
+		"CUTINFILENUM": 1
+	},
+	"抚摸阴部": {
+		"Dif2ID": "なし",
+		"DifID": "0017",
+		"DifSE": "TouchWet01",
+		"CUTINBASENUM": "vagina",
+		"CUTINFILENUM": 1
+	},
+	"繊毛触手_膣": {
+		"Dif2ID": "なし",
+		"DifID": "0011",
+		"DifSE": "Tentacle01",
+		"CUTINBASENUM": "vagina",
+		"CUTINFILENUM": 1
+	},
+	"イソギンチャク触手_膣": {
+		"Dif2ID": "なし",
+		"DifID": "0012",
+		"DifSE": "Tentacle01",
+		"CUTINBASENUM": "vagina",
+		"CUTINFILENUM": 1
+	},
+	"イソギンチャク触手_膣内": {
+		"Dif2ID": "なし",
+		"DifID": "0013",
+		"DifSE": "Tentacle01",
+		"CUTINBASENUM": "vagina",
+		"CUTINFILENUM": 1
+	},
+	"デモンハンド膣": {
+		"Dif2ID": "なし",
+		"DifID": "0016",
+		"DifSE": "TouchWet01",
+		"CUTINBASENUM": "vagina",
+		"CUTINFILENUM": 1
+	},
+	"綱渡り": {
+		"Dif2ID": "なし",
+		"DifID": "0005",
+		"DifSE": "TouchWet01",
+		"CUTINBASENUM": "vagina",
+		"CUTINFILENUM": 1
+	},
+	"電マ": {
+		"Dif2ID": "なし",
+		"DifID": "0004",
+		"DifSE": "Vibe01",
+		"CUTINBASENUM": "vagina",
+		"CUTINFILENUM": 1
+	},
+	"自慰棒": {
+		"Dif2ID": "なし",
+		"DifID": "0020",
+		"DifSE": "なし",
+		"CUTINBASENUM": "vagina",
+		"CUTINFILENUM": 1
+	},
+	"舔逼": {
+		"Dif2ID": "なし",
+		"DifID": "tongue_0002",
+		"DifSE": "なし",
+		"CUTINBASENUM": "vagina",
+		"CUTINFILENUM": 1
+	},
+	"タイツ": {
+		"Dif2ID": "なし",
+		"DifID": "なし",
+		"DifSE": "Rustle01",
+		"CUTINBASENUM": "tites",
+		"CUTINFILENUM": 1
+	},
+	"舔屁股": {
+		"Dif2ID": "なし",
+		"DifID": "tongue_0002",
+		"DifSE": "なし",
+		"CUTINBASENUM": "hip",
+		"CUTINFILENUM": 1
+	},
+	"尻覗かれ": {
+		"Dif2ID": "なし",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "hip",
+		"CUTINFILENUM": 1
+	},
+	"尻触り": {
+		"Dif2ID": "なし",
+		"DifID": "handL",
+		"DifSE": "HardTouch01",
+		"CUTINBASENUM": "hip",
+		"CUTINFILENUM": 1
+	},
+	"尻触りダブル": {
+		"Dif2ID": "なし",
+		"DifID": "handLR",
+		"DifSE": "HardTouch01",
+		"CUTINBASENUM": "hip",
+		"CUTINFILENUM": 1
+	},
+	"尻穴責め": {
+		"Dif2ID": "なし",
+		"DifID": "handanus",
+		"DifSE": "TouchAnus01",
+		"CUTINBASENUM": "hip",
+		"CUTINFILENUM": 1
+	},
+	"イボ触手_尻": {
+		"Dif2ID": "なし",
+		"DifID": "tentacle_0001",
+		"DifSE": "Tentacle01",
+		"CUTINBASENUM": "hip",
+		"CUTINFILENUM": 1
+	},
+	"素股": {
+		"Dif2ID": "なし",
+		"DifID": "penis_0001",
+		"DifSE": "Knead01",
+		"CUTINBASENUM": "hip",
+		"CUTINFILENUM": 1
+	},
+	"ローター": {
+		"Dif2ID": "なし",
+		"DifID": "rotor_0001",
+		"DifSE": "なし",
+		"CUTINBASENUM": "hip",
+		"CUTINFILENUM": 1
+	},
+	"キス_人間": {
+		"Dif2ID": "なし",
+		"DifID": "0001",
+		"DifSE": "Kiss01",
+		"CUTINBASENUM": "kiss",
+		"CUTINFILENUM": 1
+	},
+	"キス": {
+		"Dif2ID": "なし",
+		"DifID": "0001",
+		"DifSE": "Kiss01",
+		"CUTINBASENUM": "kiss",
+		"CUTINFILENUM": 1
+	},
+	"ベロチュー_人間": {
+		"Dif2ID": "なし",
+		"DifID": "0003",
+		"DifSE": "Kiss01",
+		"CUTINBASENUM": "kiss",
+		"CUTINFILENUM": 4
+	},
+	"キス_人間_事後": {
+		"Dif2ID": "なし",
+		"DifID": "0002",
+		"DifSE": "なし",
+		"CUTINBASENUM": "kiss",
+		"CUTINFILENUM": 4
+	},
+	"キス_事後": {
+		"Dif2ID": "なし",
+		"DifID": "0002",
+		"DifSE": "なし",
+		"CUTINBASENUM": "kiss",
+		"CUTINFILENUM": 4
+	},
+	"トマト": {
+		"Dif2ID": "なし",
+		"DifID": "0004",
+		"DifSE": "なし",
+		"CUTINBASENUM": "kiss",
+		"CUTINFILENUM": 4
+	},
+	"手奉仕_ペニスのみ": {
+		"Dif2ID": "penis_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "handjob",
+		"CUTINFILENUM": 91
+	},
+	"手奉仕_人間_浅": {
+		"Dif2ID": "penis_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "handjob",
+		"CUTINFILENUM": 1
+	},
+	"手奉仕_人間_中": {
+		"Dif2ID": "penis_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "handjob",
+		"CUTINFILENUM": 4
+	},
+	"手奉仕_人間_深": {
+		"Dif2ID": "penis_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "handjob",
+		"CUTINFILENUM": 7
+	},
+	"手奉仕_人間_射精": {
+		"Dif2ID": "penis_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"DifSemen": "Semen_0001",
+		"CUTINBASENUM": "handjob",
+		"CUTINFILENUM": 7
+	},
+	"手奉仕_怪魔_浅": {
+		"Dif2ID": "demonpenis_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "handjob",
+		"CUTINFILENUM": 1
+	},
+	"手奉仕_怪魔_中": {
+		"Dif2ID": "demonpenis_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "handjob",
+		"CUTINFILENUM": 4
+	},
+	"手奉仕_怪魔_深": {
+		"Dif2ID": "demonpenis_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "handjob",
+		"CUTINFILENUM": 7
+	},
+	"手奉仕_怪魔_射精": {
+		"Dif2ID": "demonpenis_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"DifSemen": "Semen_0001",
+		"CUTINBASENUM": "handjob",
+		"CUTINFILENUM": 7
+	},
+	"手奉仕_触手_浅": {
+		"Dif2ID": "tentacle_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "handjob",
+		"CUTINFILENUM": 1
+	},
+	"手奉仕_触手_中": {
+		"Dif2ID": "tentacle_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "handjob",
+		"CUTINFILENUM": 4
+	},
+	"手奉仕_触手_深": {
+		"Dif2ID": "tentacle_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "handjob",
+		"CUTINFILENUM": 7
+	},
+	"手奉仕_触手_射精": {
+		"Dif2ID": "tentacle_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"DifSemen": "Semen_0001",
+		"CUTINBASENUM": "handjob",
+		"CUTINFILENUM": 7
+	},
+	"口奉仕_人間_浅": {
+		"Dif2ID": "penis_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "blowjob",
+		"CUTINFILENUM": 1
+	},
+	"口奉仕_人間_中": {
+		"Dif2ID": "penis_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "blowjob",
+		"CUTINFILENUM": 4
+	},
+	"口奉仕_人間_深": {
+		"Dif2ID": "penis_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "blowjob",
+		"CUTINFILENUM": 7
+	},
+	"口奉仕_人間_射精": {
+		"Dif2ID": "penis_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"DifSemen": "Semen_0001",
+		"CUTINBASENUM": "blowjob",
+		"CUTINFILENUM": 1
+	},
+	"口奉仕_怪魔_浅": {
+		"Dif2ID": "demonpenis_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "blowjob",
+		"CUTINFILENUM": 1
+	},
+	"口奉仕_怪魔_中": {
+		"Dif2ID": "demonpenis_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "blowjob",
+		"CUTINFILENUM": 4
+	},
+	"口奉仕_怪魔_深": {
+		"Dif2ID": "demonpenis_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "blowjob",
+		"CUTINFILENUM": 7
+	},
+	"口奉仕_怪魔_射精": {
+		"Dif2ID": "demonpenis_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"DifSemen": "Semen_0001",
+		"CUTINBASENUM": "blowjob",
+		"CUTINFILENUM": 1
+	},
+	"口奉仕_触手_浅": {
+		"Dif2ID": "tentacle_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "blowjob",
+		"CUTINFILENUM": 1
+	},
+	"口奉仕_触手_中": {
+		"Dif2ID": "tentacle_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "blowjob",
+		"CUTINFILENUM": 4
+	},
+	"口奉仕_触手_深": {
+		"Dif2ID": "tentacle_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": "blowjob",
+		"CUTINFILENUM": 7
+	},
+	"口奉仕_触手_射精": {
+		"Dif2ID": "tentacle_0001",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"DifSemen": "Semen_0001",
+		"CUTINBASENUM": "blowjob",
+		"CUTINFILENUM": 1
+	},
+	"絶頂": {
+		"Dif2ID": "なし",
+		"DifID": "なし",
+		"DifSE": "Spouts01",
+		"CUTINBASENUM": "acme",
+		"CUTINFILENUM": 1
+	},
+	"なし": {
+		"Dif2ID": "なし",
+		"DifID": "なし",
+		"DifSE": "なし",
+		"CUTINBASENUM": 0,
+		"CUTINFILENUM": 0
+	}
+}
