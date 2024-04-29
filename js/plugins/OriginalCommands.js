@@ -81,7 +81,10 @@
           $gameSwitches._data[119] = true
           $gameVariables._data[884] = Number(args[0])
         };
-        if(charaid <= 1){$gameVariables._data[895] = facenum};              
+        if(charaid <= 1){
+          if (([2, 5, 7, 13, 15, 17, 25, 31, 32, 33, 34, 35, 36, 37, 38, 41].includes(Number(facenum))) && ($gameActors.actor(1).isStateAffected(88))){facenum += "a";}
+          $gameVariables._data[895] = facenum
+        };              
       }
       if (command === 'TMng') {//ティッカー表示形式指定
         var TickerVarID = 0

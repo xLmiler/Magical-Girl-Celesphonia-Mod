@@ -315,6 +315,9 @@
 
         switch($gameVariables.value(4980)){
             case 0:
+                m = 0.8;
+                n = 0.8;
+                b = 0.8;
                 break;
             case 2:
                 m = 1.5;

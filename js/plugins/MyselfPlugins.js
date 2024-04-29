@@ -217,6 +217,12 @@ Game_Action.prototype.executeHpDamage = function(target, value) {
 			value = 0;
 			$gameScreen.setupAnimation(142, $gameVariables.value(905), $gameVariables.value(906));
 			target.removeState(391);
+		}else if(value >= target.hp && target.hasSkill(79)){
+			value = 0;
+			$gameScreen.setupAnimation(142, $gameVariables.value(905), $gameVariables.value(906));
+			TickerManager.show(`濒死强制发动了光之力解放`);
+			target.forceAction(79, 0);
+			BattleManager.forceAction(target);
 		}
 		if(target.tp <= 0 && target._equips[0]._itemId >= 5 && value > 0){//武器掉落
 			AudioManager.playSe({name: 'chari07', pan: 0, pitch: 100, volume: 100});

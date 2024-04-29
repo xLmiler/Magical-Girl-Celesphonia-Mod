@@ -98,7 +98,7 @@
 
 
         function SkillResetAll(){ //改上限需要动
-            for(var i = 4221; i <= 4325; i++){
+            for(var i = 4221; i <= 4326; i++){
                 $gameVariables._data[i] = 0
             }
         }
@@ -122,7 +122,7 @@
 
         function AddSkillEffectBase(){ //改上限需要动
             var TagSkillID = 21//スキル番号(21からなのは都合上)
-            var TagSkillIDMax = 125//スキル最大数(実質100まで)
+            var TagSkillIDMax = 126//スキル最大数(実質100まで)
             var BaseVariable = 0//実際に判定に使う効果加算対象の変数番号
             var AddVariable = 0//加算する効果値の変数番号
             var BaseNumber = 0//効果初期値

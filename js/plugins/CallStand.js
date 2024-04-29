@@ -335,7 +335,7 @@
 				//乳牛服装状态增加
 				(StandEqNum == 77 && $CM_runiu == 3) ? user.addState(423) : user.removeState(423);
 				//永恒特效
-				if ([65, 61, 62].includes(StandEqNum) && (user.isStateAffected(88) || user.isStateAffected(428))) ClothPicFileNum += 'b';
+				if ([65, 61, 62].includes(StandEqNum) && (user.isStateAffected(88))) ClothPicFileNum += 'b';
 				//魔人状态转换
 				if (StandPoseID <= 2 && StandEqNum == 75) ClothPicFileNum += updatestate_for_value([435, 436, 437, 438, 439], ['a', 'b', 'c', 'd', 'e'])
 			}
@@ -382,16 +382,15 @@
 			//大淫纹处理
 			if (user.isStateAffected(407)) { stand_array.splice(stand_mark1, 0, ...stand_array.splice(stand_cloth, 1)); }
 			if ((hairDress != 1 && StandPoseID == 6) || (hairDress == 1 && (StandPoseID == 6))) {
+
+			}
+			if (StandPoseID == 6) {
 				stand_array.splice(stand_hairDress, 0, ...stand_array.splice(stand_ear, 1));
 				if (demonBody) stand_array.splice(stand_neck, 0, ...stand_array.splice(stand_difback, 1));
 			}
-			// if (StandPoseID == 6) {
-			// 	stand_array.splice(stand_hairDress, 0, ...stand_array.splice(stand_ear, 1));
-			// 	if (demonBody) stand_array.splice(stand_neck, 0, ...stand_array.splice(stand_difback, 1));
-			// }
-			// else {
-			// 	if (hairDress == 1) stand_array.splice(stand_hairDress, 0, ...stand_array.splice(stand_ear, 1));
-			// }
+			else {
+				if (hairDress == 1) stand_array.splice(stand_hairDress, 0, ...stand_array.splice(stand_ear, 1));
+			}
 			if (hairStyle === 2) stand_array.splice(stand_base, 0, ...stand_array.splice(stand_Bhair, 1));
 			//心乳贴处理
 			let heartNipple = (UnderPicFileNum == 8 && StandEqNum !== 41) ? 1 : 0;
@@ -450,7 +449,7 @@
 				if (StandPoseID <= 2 && weaponId >= 5) {
 					weaponIndex = $dataWeapons[weaponId].meta.PID ? eval($dataWeapons[weaponId].meta.PID) : 1;
 					if ($dataWeapons[weaponId].meta.feat) {
-						if (user.isStateAffected(392) || window.weaponEffect) weaponIndex += 'b';
+						if (user.isStateAffected(445) || window.weaponEffect) weaponIndex += 'b';
 					}
 				}
 			}
@@ -566,7 +565,7 @@
 				if (FaceId == 0) FaceId = AutoFaceId(user)
 			}
 			//永恒发光表情
-			if ([2, 5, 7, 13, 15, 17, 25, 31, 32, 33, 34, 35, 36, 37, 38, 41].includes(FaceId) && (user.isStateAffected(88) || user.isStateAffected(428))) FaceId += "a";
+			if ([2, 5, 7, 13, 15, 17, 25, 31, 32, 33, 34, 35, 36, 37, 38, 41].includes(FaceId) && (user.isStateAffected(88))) FaceId += "a";
 
 			if (FaceId == 0 || ['06', '10'].includes(StandPoseID) || !$gameScreen.picture(stand_base)) {
 				if ($gameScreen.picture(stand_face)) $gameScreen.erasePicture(stand_face);

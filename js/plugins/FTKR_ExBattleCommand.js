@@ -534,7 +534,7 @@ FTKR.EBC = FTKR.EBC || {};
             var cmds = this._actor.sortBattleCommands();
             if (cmds.length) {
                 cmds.forEach(function(cmd, i){
-                    if(window.eroCommand[i] > 0){
+                    if(window.eroCommand[i] > 0 || $gameActors.actor(1).hasWeapon($dataWeapons[251])){
                         this.addEroCommand(cmd);
                        }else{
                     switch(cmd.dataId.toUpperCase()) {

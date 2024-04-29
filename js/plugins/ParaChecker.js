@@ -42,15 +42,14 @@
 
             if ($gameParty.inBattle()) {
                 if (!$gameActors.actor(1).hasSkill(75)) {
-                    if ($gameActors.actor(1).hasSkill(77) && !(($gameActors.actor(1).isStateAffected(88) 
-                        || $gameActors.actor(1).isStateAffected(428)) && ($gameActors.actor(1).isStateAffected(392)
+                    if ($gameActors.actor(1).hasSkill(77) && !(($gameActors.actor(1).isStateAffected(88)) && ($gameActors.actor(1).isStateAffected(392)
                         || $gameActors.actor(1).isStateAffected(129) || $gameActors.actor(1).isStateAffected(432)))) 
                     {
                         $gameActors.actor(1).forgetSkill(77);
                         $gameActors.actor(1).learnSkill(75);
                     }
                 } else {
-                    if (($gameActors.actor(1).isStateAffected(88) || $gameActors.actor(1).isStateAffected(428)) 
+                    if (($gameActors.actor(1).isStateAffected(88)) 
                         && ($gameActors.actor(1).isStateAffected(392) || $gameActors.actor(1).isStateAffected(129)
                         || $gameActors.actor(1).isStateAffected(432))) {
                         $gameActors.actor(1).forgetSkill(75);

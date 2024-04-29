@@ -7,11 +7,7 @@ function damagecul_final(b_mhp, b_hp, a_atk, b_def, a_mat, b_mdf, level, e_enhan
     enhance += $gameVariables.value(e_enhance)
     enswordhance += $gameVariables.value(e_swordhance)
 
-    if (a_atk > 1.2 * b_def) {
-        damage1 = a_atk * a_atk / (a_atk + b_def);
-    }else{
-        damage1 = a_atk * a_atk / (a_atk + 2 * b_def);
-    }
+    damage1 = a_atk * a_atk / (a_atk + 2 * b_def);
     if (damage1 < 0) {
         damage1 = 0
     }
@@ -48,11 +44,7 @@ function damagecul_magic_normal(a_atk, b_def, a_mat, b_mdf, level, e_enhance, e_
     enhance += $gameVariables.value(e_enhance)
     enswordhance += $gameVariables.value(e_swordhance)
 
-    if (a_atk > 1.2 * b_def) {
-        damage1 = a_atk * a_atk / (a_atk + b_def);
-    }else{
-        damage1 = a_atk * a_atk / (a_atk + 2 * b_def);
-    }
+    damage1 = a_atk * a_atk / (a_atk + 2 * b_def);
     if (damage1 < 0) {
         damage1 = 0
     }
@@ -81,11 +73,7 @@ function damagecul_normal(a_atk, b_def, level, e_enhance) {
     var damage = 0;
     var enhance = 0;
     enhance += $gameVariables.value(e_enhance)
-    if (a_atk > 1.2 * b_def) {
-        damage = a_atk * a_atk / (a_atk + b_def);
-    }else{
-        damage = a_atk * a_atk / (a_atk + 2 * b_def);
-    }
+    damage = a_atk * a_atk / (a_atk + 2 * b_def);
     damage *= 2
     damage *= level;
     enhance += 100;

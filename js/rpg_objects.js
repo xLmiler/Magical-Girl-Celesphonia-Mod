@@ -1667,8 +1667,8 @@ Game_Action.prototype.apply = function(target) {
         }else{
             result.evaded = 1;
         }
-    }else if(result.evaded == 1 || this.isMagical()){
-        if(this.subject().mat > 1.25 * (target.mdf)){
+    }else if(result.evaded == 1 && this.isMagical()){
+        if(this.subject().mat > 1.25 * (target.mdf) || target.isStateAffected(207)){
             TickerManager.show(`尝试抵消魔法，但是失败了!`);
             result.evaded = 0;
     }
@@ -4427,7 +4427,7 @@ Game_Enemy.prototype.traitObjects = function() {
 Game_Enemy.prototype.paramBase = function(paramId) {
 	switch($gameVariables.value(4980)){
     case 0:
-        return this.enemy().params[paramId] * [1, 1, 1, 1, 1, 1, 1, 1][paramId];
+        return this.enemy().params[paramId] * [0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8][paramId];
         break;
     case 2:
         return this.enemy().params[paramId] * [1.5, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1][paramId];
@@ -4444,16 +4444,16 @@ Game_Enemy.prototype.paramBase = function(paramId) {
 };
 
 Game_Enemy.prototype.exp = function() {
-    return Math.floor(this.enemy().exp * this.exr);
+    return Math.floor(this.enemy().exp * this.exr * (1 + ($gameVariables.value(4980) == 4?1 :0.1 * $gameVariables.value(4980))));
 };
 
 Game_Enemy.prototype.gold = function() {
-    return this.enemy().gold;
+    return Math.floor(this.enemy().gold * (1 + ($gameVariables.value(4980) == 4?1 :0.1 * $gameVariables.value(4980))));
 };
 
 Game_Enemy.prototype.makeDropItems = function() {
     return this.enemy().dropItems.reduce(function(r, di) {
-        if (di.kind > 0 && Math.random() * di.denominator < this.dropItemRate()) {
+        if (di.kind > 0 && Math.random() * di.denominator < this.dropItemRate() * (1 + ($gameVariables.value(4980) == 4?$gameVariables.value(4980):0.5 * $gameVariables.value(4980)))) {
             return r.concat(this.itemObject(di.kind, di.dataId));
         } else {
             return r;
@@ -9007,9 +9007,7 @@ Game_Interpreter.prototype.updateWaitMode = function() {
 Game_Interpreter.prototype.setWaitMode = function(waitMode) {
     this._waitMode = waitMode;
 };
-Game_Interpreter.prototype.Promisewait = function(time) {
-    return new Promise(resolve =>setTimeout(resolve,time*1000))
-};
+
 Game_Interpreter.prototype.wait = function(duration) {
     this._waitCount = duration;
 };
