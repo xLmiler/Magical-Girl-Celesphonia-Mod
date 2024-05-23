@@ -335,7 +335,7 @@
 				//乳牛服装状态增加
 				(StandEqNum == 77 && $CM_runiu == 3) ? user.addState(423) : user.removeState(423);
 				//永恒特效
-				if ([65, 61, 62].includes(StandEqNum) && (user.isStateAffected(88))) ClothPicFileNum += 'b';
+				if ([65, 315, 316].includes(StandEqNum) && (user.isStateAffected(88))) ClothPicFileNum += 'b';
 				//魔人状态转换
 				if (StandPoseID <= 2 && StandEqNum == 75) ClothPicFileNum += updatestate_for_value([435, 436, 437, 438, 439], ['a', 'b', 'c', 'd', 'e'])
 			}

@@ -29,10 +29,10 @@
         }
         //催眠范围判断
         if (command === 'CMarea') {
-            // var [startX, startY, endX, endY, VariableID] = args.map(Number);
-            // var playerX = $gamePlayer.x;
-            // var playerY = $gamePlayer.y;
-            // $gameSwitches.setValue(VariableID, playerX >= startX && playerX <= endX && playerY >= startY && playerY <= endY);
+            var [startX, startY, endX, endY, VariableID] = args.map(Number);
+            var playerX = $gamePlayer.x;
+            var playerY = $gamePlayer.y;
+            $gameSwitches.setValue(VariableID, playerX >= startX && playerX <= endX && playerY >= startY && playerY <= endY);
             //eval($dataSkills[10].meta.cc)
            //setTimeout($dataSkills[10].meta.cc,0);
         }

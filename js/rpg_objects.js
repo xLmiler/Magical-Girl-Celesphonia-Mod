@@ -1744,7 +1744,7 @@ Game_Action.prototype.elementsMaxRate = function(target, elements) {
 };
 
 Game_Action.prototype.applyCritical = function(damage) {
-    return damage * 2;
+    return damage * (1 + this.subject().luk/100);
 };
 
 Game_Action.prototype.applyVariance = function(damage, variance) {
@@ -4453,7 +4453,7 @@ Game_Enemy.prototype.gold = function() {
 
 Game_Enemy.prototype.makeDropItems = function() {
     return this.enemy().dropItems.reduce(function(r, di) {
-        if (di.kind > 0 && Math.random() * di.denominator < this.dropItemRate() * (1 + ($gameVariables.value(4980) == 4?$gameVariables.value(4980):0.5 * $gameVariables.value(4980)))) {
+        if (di.kind > 0 && Math.random() * di.denominator < this.dropItemRate() * (1 + ($gameVariables.value(4980) == 4?4:0.33 * $gameVariables.value(4980)))) {
             return r.concat(this.itemObject(di.kind, di.dataId));
         } else {
             return r;
